@@ -12,6 +12,11 @@ from models import OrderModel, ResponseModel
 import logging
 
 class OrderService:
+    """
+    Order Service
+    Created by: NHYEN
+    Created at: 05/10/2021
+    """
     def parse_json(self, data):
         data = json.loads(json_util.dumps(data))
         if '_id' in data:

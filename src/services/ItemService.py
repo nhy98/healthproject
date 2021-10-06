@@ -10,6 +10,11 @@ from config import Constants
 import logging
 
 class ItemService:
+    """
+    Item Service
+    Created by: NHYEN
+    Created at: 05/10/2021
+    """
     def parse_json(self, data):
         data = json.loads(json_util.dumps(data))
         if '_id' in data:

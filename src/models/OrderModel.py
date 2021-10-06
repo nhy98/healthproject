@@ -10,7 +10,7 @@ class OrderModel(BaseModel):
     """
     Order Model
     Created by: NHYEN
-    Created at: 01/10/2021
+    Created at: 05/10/2021
     """
     user: str
     fruits: Dict[str, str]

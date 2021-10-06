@@ -9,4 +9,3 @@ db = client[cfg['database']['db_name']]
 
 items = db.get_collection(cfg['database']['item_col'])
 orders = db.get_collection(cfg['database']['order_col'])
-
