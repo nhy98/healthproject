@@ -2,3 +2,4 @@ fastapi
 pymongo[srv]
 uvicorn
 pyyaml
+pytest
